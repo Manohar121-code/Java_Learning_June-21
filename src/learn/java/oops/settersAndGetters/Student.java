@@ -11,7 +11,7 @@ public class Student {
 	public int getRollNum() {
 		return rollNum;
 	}
-
+	
 	public void setName(String name) {
 		this.name = name;
 	}
