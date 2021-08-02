@@ -25,5 +25,7 @@ public class ConstructorEx {
 		Employee obj4 = new Employee("Vijay");
 		System.out.println(obj4.empId);
 		System.out.println(obj4.name);
+		
+		System.out.println(obj2);
 	}
 }

@@ -1,6 +1,8 @@
 package learn.java.oops.blocks;
 
-public class BlocksEx {
+import learn.java.oops.accessModifiers.Sample;
+
+public class BlocksEx extends Sample {
 	public static void main(String[] args) {
 		Employee obj1 = new Employee();
 		Employee obj2 = new Employee();

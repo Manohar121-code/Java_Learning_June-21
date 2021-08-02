@@ -1,6 +1,8 @@
 package learn.java.oops.blocks;
 
-public class Employee {
+import learn.java.oops.accessModifiers.Sample;
+
+public class Employee extends Sample {
 	int empId;
 	String name;
 	static String companyName;
