@@ -3,11 +3,12 @@ package learn.java.part3.collections.list;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Vector;
 
-public class ArrayListEx {
+public class VectorEx {
 	public static void main(String[] args) {
 		
-		List list = new ArrayList();
+		List list = new Vector();
 		
 		list.add(10);
 		list.add("java");
