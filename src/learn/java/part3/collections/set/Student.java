@@ -1,6 +1,6 @@
 package learn.java.part3.collections.set;
 
-public class Student {
+public class Student implements Comparable<Student> {
 	private int id;
 	private String name;
 
@@ -61,6 +61,17 @@ public class Student {
 		} else if (!name.equals(other.name))
 			return false;
 		return true;
+	}
+
+	@Override
+	public int compareTo(Student o) {
+		if (this.getId() > o.getId()) {
+			return 1;
+		} else if (this.getId() < o.getId()) {
+			return -1;
+		} else {
+			return 0;
+		}
 	}
 	
 }
